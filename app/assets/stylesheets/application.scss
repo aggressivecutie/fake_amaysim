@@ -1,0 +1,71 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap";
+
+.bg-orange {
+  background-color: #FF5500;
+}
+.orange-card1{
+  background-color: #ff6600;
+}
+.orange-card2{
+  background-color: #fe7600;
+}
+.text-align-center{
+  text-align: center;
+}
+.bg-orange2 {
+  background-color: #df4a00;
+}
+
+.google-home{
+  height: auto;
+  width: 100%;
+}
+.am-purple{
+  background-color: #510063;
+}
+.text-white{
+  color: white;
+}
+
+.dropdown-item{
+  background-color: #FF5500;
+}
+
+.border-none{
+  border: none;
+}
+
+.navbar-brand{
+  font-size: 30px;
+}
+
+.card-block{
+  padding: 5px;
+}
+
+.canstar{
+  height: auto;
+}
+
+.purp-text{
+  color: #510063;
+}
+
+.oj-text{
+  color: #FF5500;
+}

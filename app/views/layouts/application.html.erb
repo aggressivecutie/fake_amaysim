@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amaysim</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <!-- <%= link_to 'Help', help_mobile_path %>
+    <%= link_to 'Help URL', help_mobile_url%> -->
+    <%= render 'layouts/nav'%>
+    <%= yield %>
+  </body>
+  <footer>
+    <div class="container">
+      <div class="row purp-text">
+        <div class="col"><a href="...">Check coverage</a></div>
+        <div class="col"><a href="...">Investor center</a></div>
+        <div class="col"><a href="...">Live Chat or Email</a></div>
+        <div class="col"><a href="...">Blog</a></div>
+      </div>
+      <div class="row purp-text">
+        <div class="col"><a href="...">Find a store</a></div>
+        <div class="col"><a href="...">Media center</a></div>
+        <div class="col"><a href="...">Complaints</a></div>
+        <div class="col"><a href="...">Refer a friend</a></div>
+      </div>
+      <div class="row purp-text">
+        <div class="col"><a href="...">Recharge</a></div>
+        <div class="col"><a href="...">Careers</a></div>
+        <div class="col"><a href="...">Terms & Policies</a></div>
+        <div class="col"><a href="...">SIM cards<a></div>
+      </div>
+
+
+
+    </div>
+  </footer>
+</html>
