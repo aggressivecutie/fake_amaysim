@@ -5,4 +5,7 @@ class PagesController < ApplicationController
   def help
     @name = 'cindy'
   end
+
+  def mobile
+  end
 end
